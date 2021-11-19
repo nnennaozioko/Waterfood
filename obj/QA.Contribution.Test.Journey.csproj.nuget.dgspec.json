@@ -1,0 +1,108 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Nelly\\source\\repos\\qa-contribution-test-journey\\src\\QA.Contribution.Test.Journey\\QA.Contribution.Test.Journey.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Nelly\\source\\repos\\qa-contribution-test-journey\\src\\QA.Contribution.Test.Journey\\QA.Contribution.Test.Journey.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nelly\\source\\repos\\qa-contribution-test-journey\\src\\QA.Contribution.Test.Journey\\QA.Contribution.Test.Journey.csproj",
+        "projectName": "QA.Contribution.Test.Journey",
+        "projectPath": "C:\\Users\\Nelly\\source\\repos\\qa-contribution-test-journey\\src\\QA.Contribution.Test.Journey\\QA.Contribution.Test.Journey.csproj",
+        "packagesPath": "C:\\Users\\Nelly\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nelly\\source\\repos\\qa-contribution-test-journey\\src\\QA.Contribution.Test.Journey\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nelly\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "DotNetSeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "Faker.Net": {
+              "target": "Package",
+              "version": "[1.5.150, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.0.0-rc1, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.0.0-rc1, )"
+            },
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[3.9.22, )"
+            },
+            "SpecFlow.Tools.MsBuild.Generation": {
+              "target": "Package",
+              "version": "[3.9.22, )"
+            },
+            "SpecRun.SpecFlow": {
+              "target": "Package",
+              "version": "[3.9.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
